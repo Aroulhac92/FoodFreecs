@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="./Vendors/Grid.css" rel="stylesheet" type="text/css">
+        <link href="./CSS/style.css" rel="stylesheet" type="text/css">
+
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400i" rel="stylesheet" type="text/css">
+
+        <title>FoodFreecs: Baby Steps</title>
+    </head>
+
+    <body id="body">
+
+        <header id="header">
+            
+            <!-- Logo markup -->
+            <div class="col span-2-of-3 left-side-header">
+                <div class="logo">
+                    <div class="col span-1-of-2 home">
+                        <img src="./img/FoodFreecsLogo.jpg" alt="FoodFreecsLogo" class="logo-img">
+                    </div>
+                    <div class="col span-1-of-2 slogan">
+                        <h3><span>Welcome, Freecs</span></h3>
+                    </div>
+                </div>
+                <div class="search-area">
+                    <div class="row">
+                        <input name="search" placeholder="Get a random recipe (Name or Ingredient)" class="search-box">
+                        </input>
+                    </div>
+                    <div class="row">
+                        <a class="btn search-btn" href="#/">Search</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Login markup -->
+            <div class="col span-1-of-3 right-side-header">
+                <!-- <div class="row date">January 12, 2018</div> -->
+
+            
+                <ul class="login-nav">
+                    <li><a class="empty-btn random-rec" href="#">Random Recipe (External Link)</a></li>
+                    <li><input type="text" name="user" id="un" placeholder="Username"></li>
+                    <li><input type="password" name="pass" id="pw" placeholder="Password"></li>
+                    <li><a class="forgot-pass" href="#/">Forgot Password ?</a></li>
+                    <li><a class="btn login-btn" href="#/"><span>Login</span></a><a class="btn signup-btn" href="#/"><span>Sign up</span></a></li>
+                </ul>
+           
+
+            <!--
+                <div class="col span-1-of-2">
+                    <ul class="signup-nav">
+                        <li><input type="text" id="firstName" placeholder="First Name"></li>
+                        <li><input type="text" id="location" placeholder="Location (city, st.)"></li>
+                        <li><input type="text" id="username" placeholder="Desired Username"></li>
+                        <li><input type="password" id="password" placeholder="Password"></li>
+                        <li><input type="password" id="password2" placeholder="Retype Password"></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="spacing">
+                        <li class="row"><a class="btn join-btn" href="#/">Join our community!</a></li>
+                        <li class="row"><a class="btn back-to-login" href="#/">Back to login</a></li>
+                    </ul>
+                </div> -->
+
+            </div>
+        
+        </header>
+
+        <!-- <header id="header-clone"></header> -->
+    
+        <section class="nav">
+
+            <!-- <div class="nav-bar">   
+                <div class="col span-1-of-3">
+                    <div class="row random-rec-box">
+                        <a class="random-recipe-tag" href="${returnUrl}">${returnTitle}</a>
+                    </div>
+                    <div class="nav-img-box">
+                        <img src="${returnImg}" alt="searchImg" class="search-img">
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-3">
+                    <div class="row nav-text-box">
+                        <p>
+                            <div class="row you-searched">You searched:</div>
+                            <div class="nav-text">"${searchWord}"</div>
+                        </p>
+                    </div>
+                    <div class="row nav-bar-random"><a class="btn random-in-win" href="#">Another ${searchWord} Recipe</a></div>
+                    <div class="row nav-bar-random"><a class="btn random-in-win" href="#">Another Random Recipe</a></div>
+                </div>
+
+                <div class="col span-1-of-3">
+                    <a class="exit-btn" href="#">X</a>
+                </div>
+            </div> -->
+
+        </section>
+
+        <section class="featured" id="featured">
+            
+            <!-- Beginning of main body text -->
+            
+            <!-- <div class="row title-row"><h2>Welcome, Freecs</h2></div> -->
+            
+            <div class="row title-row">
+                <div class="col span-1-of-2"><h3 class="title">Creation of the Day</h3></div>
+                <div class="col span-1-of-2"><h3 class="title">Featured User of the Month</h3></div>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-2 cotd-col">
+                    <div class="row">
+                        <div class="col span-1-of-2 img-col">
+                            <div class="row">
+                                <img src="./img/buff-chix-sandwhich.jpg" alt="COTD" class="cotd-img">
+                            </div>
+                            <p class="cotd-title">COTD Title Here</p>
+                            <div class="procedure">
+                                <p>If you would like the following meals prep instructions please visit the link to publishers website.
+                                </p>
+                                <a class="cotd-link" href="#/">Link</a>
+                                <!-- <ul>
+                                    <li>
+                                    Place the chicken breasts into a slow cooker, and pour in 3/4 of the wing sauce and the ranch dressing mix. Cover, and cook on Low for 6 to 7 hours.
+                                    </li>
+                                    <li>
+                                    Once the chicken has cooked, add the butter, and shred the meat finely with two forks. Pile the meat onto the hoagie rolls, and splash with the remaining buffalo wing sauce to serve.
+                                    </li>
+                                </ul> -->
+                            </div>
+                        </div>
+                        
+                        <div class="col span-1-of-2 ingredients-class">
+                            <p>Ingredients</p>
+                            <ul class = "row" id="ingredients">
+                                <!-- <li>4 skinless, boneless chicken breast halves</li>
+                                <li>1 (17.5 fluid ounce) bottle buffalo wing sauce</li>
+                                <li>1/2 (1 ounce) package dry ranch salad dressing mix</li>
+                                <li>2 tablespoons butter</li>
+                                <li>6 hoagie rolls, split lengthwise</li> -->
+                            </ul>
+                            <div class="row" id="pages"></div>
+                        </div>    
+                    </div>
+                
+                </div>
+
+                <div class="col span-1-of-2 uotm-col">
+
+                    <ul>
+                        <li class="featured-name">Javier Newman</li>
+                        <li class="featured-bio">I was born in Chicago, Il and came up from the dirty dirty eating crawfish and hot wings.
+                        </li>
+                        <li class="featured-fav-meal">Favorite Meal <span class="fav-meal">Slow Roasted duck with a softened creme fraise.</span></li>
+                    </ul>
+                    <img src="./img/Javier-Newman.jpg" alt="Featured User" class="featured-user-photo">
+                    <blockquote class="featured-quote"><span>&quot;</span> <span class="quote">It isn't what happens to a man, but rather how a man impacts the lives of others, that defines his existence.</span><span>&quot;</span></blockquote>
+                </div>
+            
+            </div>
+
+        </section>
+            
+        <section class="recipe-images">
+
+            <div class="row title-row"><h2>More Recipes to Die For</h2></div>
+            
+            <div class="row">
+                <ul class="recipe-images">
+                
+                    <li class="img-space">
+                        <div class="img-container">
+                            <img src="./img/PanSearedPumpkinFeta.jpg" class="meal-photo" id="meal-photo1">
+                        </div>
+                        <a id="figcaptions1" href="#/"><figcaption id="figcaption1">Pan-Seared Pumpkin and Pomegranate with Feta Cheese</figcaption></a>
+                    </li>
+                    
+                    <li class="img-space">
+                        <div class="img-container">
+                            <img src="./img/RawBeefSteak.jpg" class="meal-photo" id="meal-photo2">
+                        </div>
+                        <a id="figcaptions2" href="#/"><figcaption id="figcaption2">Crusted Sirloin Tips with Asparagus and Sweet Potato Slaw</figcaption></a>
+                    </li>
+                    
+                    <li class="img-space">
+                        <div class="img-container">
+                            <img src="./img/SunnySide.jpg" class="meal-photo" id="meal-photo3">
+                        </div>
+                        <a id="figcaptions3" href="#/"><figcaption id="figcaption3">Eggs The Right Way</figcaption>
+                        </a>
+                    </li>
+                
+                </ul>
+            </div>
+        
+        </section>
+    
+
+        <!-- ************************************************* -->
+        <section class="nominate-user">
+
+            <div class="row title-row"><h2>Pick Next Weeks Creation of the Day!</h2></div>
+            
+            <div class="row">
+            
+                <div class="col span-1-of-2 nominate">
+                    <div class="row choose-winner">
+                        <h4>Choose a winner for January</h4>
+                    </div>
+                    <div class="row left-side-options">
+                        <select name="nominate" id="nominate" class="nom-drop">
+                            <option value="mexican" class="options" selected>Mexican</option>
+                            <option value="asian" class="options">Asian Cuisine</option>
+                            <option value="barbq" class="options">Bar-B-Que</option>
+                            <option value="carribean" class="options">Carribean</option>
+                        </select>
+                    <div class="row">
+                    <a class="empty-btn like-btn" href="#/">I like this one</a>
+                    </div>
+                    
+                </div>
+            </div>
+                
+                <div class="col span-1-of-2 nominated">
+                    <div class="selected-item">
+                        <div id="selected-text"><h1 id="inner-text">Mexican</h1></div>
+                    </div>
+                    <div class="row"><img id='selected-img' src="./img/burrito.jpg"></div>
+                </div>  
+                
+            </div>
+        
+        </section>
+        <!-- ************************************************* -->
+
+
+
+        <footer>
+            <div class="col span-1-of-3 links">
+                <ul class="footer-nav">
+                    <li><a href="#/">The Team</a></li>
+                    <li><a href="#/">Careers</a></li>
+                    <li><a href="#/">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-3 copyright"><span>&copy;</span>FoodFreecs</div>
+            <div class="col span-1-of-3 advertising">
+            <ul class="footer-nav"><li><a href="#/">Advertising</a></li></ul>
+            </div>
+        </footer>
+      
+        <script src="./JS/bundle.js"></script>
+    </body>
+</html>
